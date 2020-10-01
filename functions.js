@@ -46,3 +46,16 @@ console.log(power(1, 3));
  
 let great = who => `Hola ${who}`;
 console.log(great("Raul"));
+
+//ejercicio 3
+
+var users = 
+[{ firstName: 'Homer', lastName: 'Simpson' },
+{ firstName: 'Marge', lastName: 'Simpson' },
+{ firstName: 'Bart', lastName: 'Simpson' },
+{ firstName: 'Lisa', lastName: 'Simpson' },
+{ firstName: 'Maggie', lastName: 'Simpson' }];
+
+for (var user of users){
+    console.log(user.firstName); 
+}
