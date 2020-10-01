@@ -96,4 +96,29 @@ async function b() {
 }
 b();
 
+//ejercicio 7
+
+var tasks = [
+    {
+       'name' : 'Start React web',
+       'duration' : 120
+    },
+    {
+       'name' : 'Work out',
+       'duration' : 60
+    },
+    {
+       'name' : 'Procrastinate on facebook',
+       'duration' : 240
+    }
+];
+
+let task_name = tasks.map(task => {
+    return task.name;
+});
+console.log(task_name);
+
+tasks.forEach(task => console.log(task.name));
+
+
 
