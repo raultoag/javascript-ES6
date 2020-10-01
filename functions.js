@@ -78,4 +78,22 @@ var revers = frase => {
 
 console.log(revers());
 
+//ejercicio 6
+
+
+
+async function b() {
+    let a = new Promise( (resolve, reject) => {
+        setTimeout( () => {
+            
+            resolve("Thank you!");
+        }, 3000)
+    })
+
+    let result = await a;
+    console.log (result);
+
+}
+b();
+
 
