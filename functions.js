@@ -62,8 +62,20 @@ for (var user of users){
 
 //ejercicio 4
 
-var epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
+let epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
 
 var reducer = (acc, vals) => acc +" "+ vals;
 
 console.log(epic.reduce(reducer));
+
+//ejercicio 5
+
+let stringFrase = "";
+var revers = frase => {
+    let stringFrase = [...epic].reverse();
+    return stringFrase;
+}
+
+console.log(revers());
+
+
