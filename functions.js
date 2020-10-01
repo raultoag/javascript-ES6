@@ -59,3 +59,11 @@ var users =
 for (var user of users){
     console.log(user.firstName); 
 }
+
+//ejercicio 4
+
+var epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
+
+var reducer = (acc, vals) => acc +" "+ vals;
+
+console.log(epic.reduce(reducer));
